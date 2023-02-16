@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <title>Portifólio</title>
 </head>
 <body>
@@ -470,9 +471,72 @@
             </div>
         </section>
 
+        <section class="portifolio section" id="portifolio">
+            <h2 class="section__title">Portifolio</h2>
+            <span class="section__subtitle">Projetos recentes</span>
+
+            <div class="portifolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Projeto 1 -->
+                    <div class="portifolio__content grid swiper-slide">
+                        <img src="assets/img/SysBiblioteca.jpg" alt="" class="portifolio__img">
+
+                        <div class="portifolio__data">
+                            <h3 class="portifolio__title">SysBiblioteca</h3>
+                            <p class="portifolio__description">Site Moderno que gerencia livros, alunos e servidores de uma escola.</p>
+
+                            <a href="#" class="button button--flex button--small portifolio__button">
+                                Abrir
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portifolio__content grid swiper-slide">
+                        <img src="assets/img/quizmica.jpg" alt="" class="portifolio__img">
+
+                        <div class="portifolio__data">
+                            <h3 class="portifolio__title">Quizmica</h3>
+                            <p class="portifolio__description">Jogo criado na web com o objetivo de auxiliar no aprendizado de Química Orgânica.</p>
+
+                            <a href="#" class="button button--flex button--small portifolio__button">
+                                Abrir
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portifolio__content grid swiper-slide">
+                        <img src="assets/img/SysBiblioteca.jpg" alt="" class="portifolio__img">
+
+                        <div class="portifolio__data">
+                            <h3 class="portifolio__title">SysBiblioteca</h3>
+                            <p class="portifolio__description">Site Moderno que gerencia livros, alunos e servidores de uma escola.</p>
+
+                            <a href="#" class="button button--flex button--small portifolio__button">
+                                Abrir
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portifolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portifolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
     </main>
 
 
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
