@@ -684,11 +684,11 @@ img {
 }
 
 .portifolio__content{
-  padding:0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .portifolio__img{
-  width: 265px;
+  width: 275px;
   border-radius: .5rem;
   justify-self: center;
 }
@@ -698,17 +698,17 @@ img {
   margin-bottom: var(--mb-0-5);
 }
 
-.potifolio__description{
+.portifolio__description{
   margin-bottom: var(--mb-0-75);
 }
 
-.potifolio__button:hover .button__icon{
+.portifolio__button:hover .button__icon{
   transform: translateX(.25rem);
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after{
-  content: "";
+  content: '';
 }
 
 .swiper-portifolio-icon{
@@ -724,12 +724,12 @@ img {
   right: -.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -2.5rem
+.swiper-container-horizontal > .swiper-pagination-bullets{
+  bottom: -2.5rem;
 }
 
 .swiper-pagination-bullet-active{
-  background-color: var(--first-color);
+  background: var(--first-color);
 }
 
 .swiper-button-prev,
@@ -737,6 +737,7 @@ img {
 .swiper-pagination-bullet{
   outline: none;
 }
+
 /*==================== PROJECT IN MIND ====================*/
 
 
