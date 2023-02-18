@@ -136,6 +136,10 @@ img {
   height: auto;
 }
 
+button{
+  border: none;
+  font-family: 'Poppins';
+}
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
