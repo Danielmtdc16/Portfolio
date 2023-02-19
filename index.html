@@ -629,7 +629,7 @@
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" class="contact__input" required>
                         </div>
                     </div>
 
@@ -644,6 +644,9 @@
                     </div>
 
                     <div>
+                        <<input type="hidden" name="_next" value="">
+                        <input type="hidden" name="_captcha" value="false">
+
                         <button type="submit" class="button button--flex">
                             Enviar
                             <i class="uil uil-message button__icon"></i>
