@@ -621,31 +621,32 @@
                 </div>
 
                 <form action="https://formsubmit.co/danielmtdc16@gmail.com" method="POST" class="contact__form grid">
-
-                    <input type="hidden" name="_next" value="https://daniel-matos.netlify.app/assets/form_sucess/form_sucess.html">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_subject" value="Formulário contato - portfólio (Email)">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Nome</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" class="contact__input" name="nome">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input" required>
+                            <input type="email" class="contact__input" name="mensagem" required>
                         </div>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Projeto desejado</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" class="contact__input" name="projeto desejado">
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Mensagem</label>
                         <textarea name="mensagem" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
+                    
+                    <input type="hidden" name="_next" value="https://daniel-matos.netlify.app/assets/form_sucess/form_sucess.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Formulário contato - portfólio (Email)">
+                    <input type="hidden" name="_template" value="table">
 
                     <div>
                         <button type="submit" class="button button--flex">
