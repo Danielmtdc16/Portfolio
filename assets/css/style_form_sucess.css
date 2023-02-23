@@ -65,6 +65,7 @@ body, html{
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
+  border: transparent;
   transition: all 0.3s ease;
 }
 
@@ -72,4 +73,39 @@ body, html{
   background-color: hsl(230, 69%, 51%);
 }
 
+@media screen and (max-width: 350px){
+  .container{
+    width: 14rem;
+  }
+  .container__img{
+    height: 9rem;
+    margin-bottom: 1.5rem;
+  }
+  .success-heading{
+    font-size: 23px;
+  }
+  .success-message{
+    font-size: 14px;
+  }
+}
 
+@media screen and (min-width: 568px){
+  .container{
+    width: 30rem;
+  }
+  .container__img{
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container{
+    width: 36rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .container{
+    width: 37.5rem;
+  }
+}
