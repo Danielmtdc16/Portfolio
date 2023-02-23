@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+
+  --hue-color: 230;
+  --first-color-second: hsl(var(--hue-color), 30%, 8%);
+  --title-color: hsl(var(--hue-color), 8%, 95%);
+  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--body-color);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 37.5rem;
+  height: 25rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+  background-color: var(--first-color-second);
+  border-radius: .625rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);  
+}
+
+.container__img{
+  height: 11rem;
+}
+
+.success-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.btn-success {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: hsl(230, 69%, 61%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: hsl(230, 69%, 51%);
+}
+
+
