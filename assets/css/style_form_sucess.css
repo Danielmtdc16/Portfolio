@@ -30,7 +30,7 @@ body, html{
   align-items: center;
   justify-content: center;
   width: 37.5rem;
-  height: 25rem;
+  height: 26rem;
   margin: 0 auto;
   padding: 2.5rem;
   text-align: center;
@@ -89,12 +89,29 @@ body, html{
   }
 }
 
-@media screen and (min-width: 568px){
+
+@media screen and (min-width: 351px){
   .container{
-    width: 30rem;
+    width: 20rem;
+    height: 26rem;
+  }
+  .container__img{
+    margin-bottom: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 466px){
+  .container{
+    width: 24rem;
   }
   .container__img{
     margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 665px){
+  .container{
+    width: 29rem;
   }
 }
 
